@@ -8,7 +8,7 @@ public class MaxArray {
 		}
 		}
 	static void findingmaximum(int a[]) {
-		int max=a[i];
+		int max=a[0];
 		for(i=0;i<a.length-1;i++)
 		{
 			if(a[i]<a[i+1])
@@ -22,7 +22,7 @@ public class MaxArray {
 	public static void main(String[] args) {
 		int a[]= {14,15,10,19,22};
 		calling(a);
-findingmaximum(a); 		
+		findingmaximum(a); 		
 		
 		
 

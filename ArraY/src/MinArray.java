@@ -10,7 +10,7 @@ public class MinArray {
 			}		
 	}
 static void findingMinimum(int a[]) {
-		int min=a[0];
+		int min=a[i];
 		for(i=0;i<a.length-1;i++) {
 			if(a[i] > a[i+1]){
 					min= a[i];

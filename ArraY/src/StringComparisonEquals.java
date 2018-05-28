@@ -4,7 +4,7 @@ public class StringComparisonEquals {
 		String s="Sharmila";//literal
 		String s1="Sharmila";
 		System.out.println(s.equals(s1));//boolean
-		String s2="sharmila";
+		String s2="suba";
 		System.out.println(s.equals(s2));
 System.out.println(s.equalsIgnoreCase(s2));//equal ignorence
 String s3=new String("Sharmila");//newkeyword
